@@ -4,6 +4,8 @@
   
 This script is meant to be used on a clean kali linux instance, I have not tested it on an already running instance.
 For a full application list check the credits.
+
+if you are downloading the scripts seperatly, make sure to put them in the same folder.
   
 # Usage
 Make sure all .sh files are executable with chmod +x
@@ -16,7 +18,7 @@ The script installs android studio in the /opt/ folder, close android studio aft
 
 CLOSE ALL SHELLS AND WINDOWS OPENED BY THE SCRIPT BEFORE TESTING
 
-# if after testing applications dont work
+# if after testing applications doesn't work
 type: "pipx ensurepath" in a new terminal window, close afterwards, and retest.
 
 # drozer
@@ -26,6 +28,8 @@ docker run -it fsecurelabs/drozer
 docker run -it linuxserver/sqlitebrowser
 
 after running the docker commands above you will be dropped into a docker container and you can run the applications normally. Check their pages for usage.
+
+type exit, to exit the docker container.
 
 AFTER RUNNING THIS SCRIPT NEVER CROSS THE STREAMS ANYMORE, ALL APPS WORK, SO FROM NOW ON ONLY INSTALL PIP PACKAGES WITH PIPX.
 
